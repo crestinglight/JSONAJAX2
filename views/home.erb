@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+		<title>Movie Search</title>
+		<link rel="stylesheet" href="styles.css">
+		<script type="text/javascript" src="scripts.js"></script>
+	</head>
+
+	<body>
+		<form action="/results">
+		    <label>Enter part or all of a movie title:</label><br>
+		    <input type="text" name="query">
+
+		    <input type="submit" class="button">
+		</form>
+
+		<div id="results" style="display: none;">
+		</div>
+
+		<div id="moveButtons" style="display: none;">
+			<form id="prev">
+				<input type="submit" id="prevButton" value="Previous">
+			</form>
+			<form id="next">
+				<input type="submit" id="nextButton" value="Next">
+			</form>
+		</div>
+	</body>
+</html>
